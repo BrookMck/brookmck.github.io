@@ -1,0 +1,69 @@
+body {
+    background-color: rgba(74, 180, 175, 0.819);
+    background-image: url(./graphics/water.jpg), linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2));
+    background-blend-mode: overlay;
+    background-repeat: round;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+h1 {
+    position:absolute;
+    top: 20px;
+    left: 430px;
+    font-size: xx-large;
+    color:rgb(85, 207, 201)
+    
+}
+
+p {
+    position:absolute;
+    top: 75px;
+    left: 300px;
+    width: 900px;
+    font-size: x-large;
+    color:rgb(85, 207, 201)
+    
+}
+
+.div-1 {
+    background-color: rgba(31, 96, 93, 0.616);
+    height: 200px;
+    width: 1500px;
+}
+
+nav ul {
+    position:absolute;
+    top: 190px;
+    left: 300px;
+    list-style-type:none;
+    padding: 0px;
+}
+
+nav ul li {
+    margin-bottom: 10px;
+    padding: 85px;
+}
+
+nav ul li a {
+    text-decoration: wavy;
+    color: rgba(31, 96, 93);
+    font-weight: bold;
+    font-size:x-large;
+}
+
+.images {
+    position: absolute;
+    top: 225px;
+    left: 50px;
+    padding: 10px;
+}
+
+.manatee-img {
+    width: 300px;
+    height:auto;
+    margin-bottom: 10px;
+    display: block;
+}
